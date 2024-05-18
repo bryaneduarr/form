@@ -7,6 +7,11 @@ body{
     
 }
 
+
+input{
+    font-family: "karla", sans-serif;
+}
+
 fieldset{
     border: none;
 }
@@ -19,26 +24,52 @@ legend{
 .formulario{
     background-color: #FFF;
     margin: 100px;
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid red;
 }
 
+.input__names{
+    display: flex;
+    flex-direction: column;
+
+
+}
 .formulario--names{
     display: flex;
-    margin: 15px 0px;
+    flex-direction: row;
+    margin-top: 20px;
+    border: 1px solid blue;
+}
+
+#first{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+#last{
+    width: 250px;
+    border-radius: 5px;
+    height: 35px;
+    margin: 5px;
 }
 
 .formulario--email{
-    padding: 20px;
+    border: 1px solid red;
+    padding: 10px;
     margin: 15px 0px;
 }
 
 .formulario__email{
+    border: 1px solid green;
     display: flex;
 }
 
 .input--email{
     width: 100%;
-    height: 28px;
+    height: 35px;
     margin-top: 5px;
     margin-left: 0px;
     border-radius: 5px;
@@ -47,10 +78,35 @@ legend{
 
 .formulario--query{
     display: flex;
-    margin: 15px 0px;
+    flex-direction: column;
+    margin: 0px 0px;
+    border: 1px solid blue;
 }
 
 
+.formulario--options{
+    padding: 0px;
+    display: flex;
+    flex-direction:;
+    margin: 0;
+    border: 1px solid red;
+}
+
+.div--option{
+    border: 1px solid black;
+    width: 250px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#support{
+    border: 1px solid red;
+    margin-left: 0px;
+    
+
+}
 textarea{
     margin-top: 5px;
     min-width: 99%;
@@ -64,6 +120,7 @@ textarea{
 
 .formulario--terms{
     margin-top: 20px;
+    border: 1px solid red;
 
 
 }
@@ -71,7 +128,7 @@ textarea{
 button{
     width: 100%;
     margin-top: 50px;
-    height: 40px;
+    height: 45px;
     border-radius: 5px;
     border: 1px solid #0009;
     background-color: #6f11e7;
