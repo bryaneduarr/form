@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulariouwu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formulario">
+        <fieldset>
+            <legend>Contact Us</legend>
+            <form>
+                <!--last y first name-->
+                <div class="formulario--names">      
+                    <div class="input__names">
+                        <label for="first"> first Name</label>
+                            <input type="text" class="input--first" id="first">
+                    </div>
+                    <div> 
+                        <label for="last"> Last Name</label>
+                            <input type="text" class="input--last" id="last">
+                    </div>
+                </div>
+
+                    <!--email-->
+                <div class="formulario--email"> 
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" class="input--email" id="email">
+                    </div>
+                </div>
+
+                    <!--Query Type-->
+                <div class="formulario--query">
+                    <div class="query--h2">
+                        <h2>Query Type</h2>
+                    </div>
+                    <div>
+                        <label id="general">General Enquiry</label>
+                        <input type="radio" id="general">
+                    </div>
+                    <div>
+                        <label id="support">Support Request</label>
+                        <input type="radio" id="supoort">
+                    </div>
+                </div>
+                
+                <!--Text Area-->
+                
+                <div class="formulario--message">
+                    <label for="message"> Mensaje</label>
+                    <textarea id="message"></textarea>
+                </div>
+                
+                
+                <!--Terms-->
+                
+                <div class="formulario--terms">
+                    <label id="terms">I consent to being contacted by the team</label>
+                    <input type="checkbox">
+                </div>
+                
+                
+                <!--Button-->
+                <button>Submit</button>
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>
