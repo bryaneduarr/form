@@ -18,11 +18,11 @@
             <form>
                 <!--last y first name-->
                 <div class="formulario--names">      
-                    <div class="input__names">
+                    <div class="div__first">
                         <label for="first"> first Name</label>
                             <input type="text" class="input--first" id="first">
                     </div>
-                    <div> 
+                    <div class="div__last"> 
                         <label for="last"> Last Name</label>
                             <input type="text" class="input--last" id="last">
                     </div>
@@ -41,12 +41,12 @@
                     <h2>Query Type</h2>
                     <div class="formulario--options">  
                         <div class="div--option">
-                            <label id="general">General Enquiry</label>
-                            <input type="radio" id="general">
+                            <input name="query" type="radio" id="general">
+                            <label for="general" id="general">General Enquiry</label>
                         </div>
                         <div class="div--option">
-                            <label id="support">Support Request</label>
-                            <input type="radio" id="support">
+                            <input name="query" type="radio" id="support">
+                            <label for="support" id="support">Support Request</label>
                         </div>
                     </div>
                 </div>
@@ -62,8 +62,8 @@
                 <!--Terms-->
                 
                 <div class="formulario--terms">
-                    <label id="terms">I consent to being contacted by the team</label>
-                    <input type="checkbox">
+                    <label for="check" id="terms">I consent to being contacted by the team</label>
+                    <input id="check" type="checkbox">
                 </div>
                 
                 

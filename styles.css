@@ -28,21 +28,25 @@ legend{
     border: 1px solid red;
 }
 
-.input__names{
+.div__first, .div__last{
+    border: 1px solid blueviolet;
     display: flex;
     flex-direction: column;
-
-
 }
+
+
+
 .formulario--names{
-    display: flex;
-    flex-direction: row;
     margin-top: 20px;
     border: 1px solid blue;
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 #first{
-    width: 250px;
+    width: 300px;
     height: 35px;
     border-radius: 5px;
     margin: 5px;
@@ -50,7 +54,7 @@ legend{
 }
 
 #last{
-    width: 250px;
+    width: 300px;
     border-radius: 5px;
     height: 35px;
     margin: 5px;
@@ -90,30 +94,34 @@ legend{
     flex-direction:;
     margin: 0;
     border: 1px solid red;
+    justify-content:space-between;
+    padding: 20px;
 }
 
 .div--option{
-    border: 1px solid black;
-    width: 250px;
-    margin-left: 50px;
+    border: 1px solid burlywood;    
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    width: 300px; 
+    
+    
+    
 }
 
-
-#support{
-    border: 1px solid red;
-    margin-left: 0px;
+#support, #general{
+        
+    display: flex;
     
 
 }
 textarea{
     margin-top: 5px;
-    min-width: 99%;
+    min-width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
     min-height: 100px;
-    max-width:200px;
+    max-width:300px;
     font-family: "karla", sans-serif;
 }
 
